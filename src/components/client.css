@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img1 {
+    /* The image used */
+    background-image: url("../components/Images/sld6.jpg");
+    margin: 10px;
+    
+    
+  
+    /*min-height: 380px;*/
+  height: 950px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container_client {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    width: 45%;
+    height: 520px;
+    padding: 5px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  /*input[type=text], input[type=password] {
+    width: 100%;
+    padding: 2px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }*/
+  .input
+  {
+    
+    padding: 2px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  .input[type=text]:focus, .input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    width: 150px;
+  }
+  
+  /*input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }*/
+  
+  /* Set a style for the submit button */
+  .btn2 {
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    
+    opacity: 0.9;
+  }
+  
+  .btn2:hover {
+    opacity: 1;
+  }
+  
+  .img_contact
+  {
+    width:100%;
+    height:320px;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .cont_contact
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cont_abt
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+/*.cont_why
+  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}*/
+  .row_why
+  {
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #8f94fb, #a7d0e9);  
+    clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 100%);
+    
+  }
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side_why {
+    flex: 30%;
+    margin-top: 70px;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main_why {
+    flex: 70%;
+   
+    padding: 20px;
+  }
+  .main_why .img_cust {
+    
+    -moz-animation: marquee 10s linear infinite;
+    -webkit-animation: marquee 10s linear infinite;
+    animation: marquee 10s linear infinite;
+  }
+  @-moz-keyframes marquee {
+    100% {
+      transform: translateX(100%);
+    }
+    0% {
+      transform: translateX(-100%);
+    }
+  }
+  @-webkit-keyframes marquee {
+    0% {
+        transform: translateX(-0%);
+    }
+    100% {
+        transform: translateX(100%);
+      
+    }
+  }
+  @keyframes marquee {
+    0% {
+        -moz-transform: translateX(-0%);
+      -webkit-transform: translateX(-0%);
+      transform: translateX(-0%);
+     }
+    100% {
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%)
+       
+    }
+  }
+
+  .sup_why
+{
+  flex: 40%;
+  
+  padding: 10px;
+}
+  
+    .main_contact
+  { flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  .sub_contact
+  {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  .sup_contact
+  {
+    flex: 40%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .sup_contact1
+  {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  .sup_contact2
+  {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 10px;
+
+  }
+  .box_contact
+  { height:670px;
+    width:75%;
+    /*margin-left: 20%;*/
+    padding: 5px;
+    border: 2px solid black;
+    margin:255px ;
+
+   /* border: 2px solid black;
+    border: 3px solid black;
+    padding: 5px;
+    width:75%;
+    margin-left:140px;*/
+  }
+  .iframe_conatct
+  {width:450px;}
+   .img_iframe_contact
+   {
+    width:450px;
+     height:450px;
+   }
+   .logo_conatct
+   {
+    width: 210px;
+    height: 140px;
+   }
+   .col1_career
+   {
+    height:840px;
+     width:35%;
+   /* width:475px;*/
+    
+   }
+   .col2_career
+   {
+    height:840px;
+    /*width:550px;*/
+    width:35% ;
+    padding: 5px;
+   }
+   .row_career
+   {
+    margin: 0;
+    padding: 0;
+   }
+   .txt_career
+   {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 50px;
+   }
+   .form_career
+   {
+    height:900px;
+    width:45%;
+    /*margin-left: 20%;*/
+    padding-left: 150px;
+    
+   
+    margin:155px ;
+    margin-left: 300px;
+    border: 2px solid black;
+   }
+   .img_career
+   {
+    background-image:url('../components/Images/sld7.jpg');
+   }
+   .img_iframe_contact
+   {
+    width:85%;
+    
+   }
+
+   .align_career
+   {
+    margin-left: 350px;
+    /*width: 250px;
+    height: 650px;*/
+   }
+  @media screen and (max-width: 400px) {
+    .col_contact
+   {
+     width:25%;
+     height: 350px;
+     
+   }
+   .side_why {
+    flex: 30%;
+    margin: 0;
+    margin-top:0;
+    padding: 0;
+  }
+  
+   .logo_conatct
+   {
+    width: 150px;
+    height: 100px;
+    padding: 2px;
+   }
+   .img_iframe_contact
+   {
+    width:70%;
+     height:150px;
+   }
+   .container_client
+   {
+    width: 85%;
+    
+   }
+   .form_career
+   {
+    
+    width:100%;
+    margin-left: 5px;
+   }
+   .input
+   {
+    width: 35%;
+   }
+   .option
+   {
+    
+    /*width:550px;*/
+    width:35% ;
+    
+   }
+  .btn
+  {
+    width:35%;
+    height: 40px;
+    padding: 5px;
+  }
+  .txt_career
+   {
+    text-align: center;
+    margin-left: 1px;
+    margin-top: 75px;
+   }
+   .box_contact
+  { height:700px;
+    width:95%;
+    /*margin-left: 20%;*/
+    padding: 5px;
+    border: 2px solid black;
+    margin:5px ;
+
+  }
+  .title_client
+  {
+    font-size: 35px;
+  }
+  .cont_contact{
+    flex-direction: column;
+    flex: 10%;
+  }
+  .cont_abt{
+    flex-direction: column;
+    
+  }
+  .row_why{
+    flex-direction: column;
+    background: linear-gradient(to right, #8f94fb, #a7d0e9);  
+    clip-path: polygon(0 9px, 100% 0, 100% 98%, 0 100%);
+   
+    /*flex: 60%;*/
+  }
+  .align_career
+   {
+    margin-left: 1px;
+    /*width: 250px;
+    height: 650px;*/
+   }
+}
+@media screen and (max-width: 700px) {
+  .cont_contact {   
+    flex-direction: column;
+  }
+}
